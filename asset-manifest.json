@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/deyor-itinerary/static/css/main.46780cb6.css",
+    "main.js": "/deyor-itinerary/static/js/main.1a54b5f1.js",
+    "static/media/travel_group.jpg": "/deyor-itinerary/static/media/travel_group.1b927c5f4514b4808b83.jpg",
+    "static/media/hero_spiti.jpg": "/deyor-itinerary/static/media/hero_spiti.6d958bb57fe81f18d3fd.jpg",
+    "static/media/spiti_road.jpg": "/deyor-itinerary/static/media/spiti_road.5375dee58494a777fc26.jpg",
+    "static/media/Ladakh.jpg": "/deyor-itinerary/static/media/Ladakh.7c537e9e661a957e1315.jpg",
+    "index.html": "/deyor-itinerary/index.html",
+    "main.46780cb6.css.map": "/deyor-itinerary/static/css/main.46780cb6.css.map",
+    "main.1a54b5f1.js.map": "/deyor-itinerary/static/js/main.1a54b5f1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.46780cb6.css",
+    "static/js/main.1a54b5f1.js"
+  ]
+}
