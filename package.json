@@ -4,12 +4,21 @@
   "private": true,
   "homepage": "https://shivammjhaa.github.io/deyor-itinerary",
   "scripts": {
+<<<<<<< Updated upstream
     "start": "react-scripts start",
     "build": "react-scripts build",
     "predeploy": "npm run build",
     "deploy": "npx gh-pages -d build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
+=======
+   "start": "react-scripts start",
+  "build": "react-scripts build",
+  "predeploy": "npm run build",
+  "deploy": "npx gh-pages -d build",
+  "test": "react-scripts test",
+  "eject": "react-scripts eject"
+>>>>>>> Stashed changes
   },
   "dependencies": {
     "react": "^18.2.0",
