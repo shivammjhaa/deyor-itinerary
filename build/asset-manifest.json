@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/deyor-itinerary/static/css/main.d25dfc9e.css",
+    "main.js": "/deyor-itinerary/static/js/main.a8cf0afd.js",
+    "index.html": "/deyor-itinerary/index.html",
+    "main.d25dfc9e.css.map": "/deyor-itinerary/static/css/main.d25dfc9e.css.map",
+    "main.a8cf0afd.js.map": "/deyor-itinerary/static/js/main.a8cf0afd.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d25dfc9e.css",
+    "static/js/main.a8cf0afd.js"
+  ]
+}
