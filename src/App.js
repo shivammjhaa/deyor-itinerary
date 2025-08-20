@@ -102,7 +102,7 @@ function App() {
         <div className="grid-3">
           <article className="card trip">
             <div className="trip__media">
-              <img src="images/shimla.jpg" alt="Shimla" />
+              <img src="images/Ladakh.jpg" alt="Ladakh" />
               <span className="badge">Bestseller</span>
             </div>
             <div className="trip__body">
@@ -121,7 +121,7 @@ function App() {
 
           <article className="card trip">
             <div className="trip__media">
-              <img src="images/kalpa.jpg" alt="Kalpa" />
+              <img src="images/spiti_road.jpg" alt="Spiti Valley" />
               <span className="badge badge--green">New</span>
             </div>
             <div className="trip__body">
@@ -242,3 +242,4 @@ function App() {
 }
 
 export default App;
+
