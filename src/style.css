@@ -67,7 +67,7 @@ body.dark {
   animation: gradientShift 20s ease infinite;
 }
 body.dark .nav__links a,
-body.dark .brand__name { color: #f1f5f9; }
+body.dark .brand__name { color: #ff0000; }
 body.dark .card,
 body.dark .filters__row,
 body.dark .cta__inner,
@@ -115,7 +115,7 @@ body.dark .section {
   border-bottom: 1px solid rgba(229,231,235,0.14);
 }
 .nav__inner { display:flex; align-items:center; gap: var(--s-6); padding: var(--s-4) 0; color: white; }
-.brand { display:flex; align-items:center; gap:10px; font-weight:800; letter-spacing:-0.02em; color: white; }
+.brand { display:flex; align-items:center; gap:10px; font-weight:800; letter-spacing:-0.02em; color: rgb(255, 0, 0); }
 .brand__dot { width:12px; height:12px; border-radius:50%; background: linear-gradient(135deg, #22d3ee, #2563eb); box-shadow:0 0 0 3px rgba(37,99,235,.2); }
 .brand__name { font-size:18px; }
 .nav__links { display:flex; gap: var(--s-6); margin-left:auto; }
@@ -147,6 +147,7 @@ body.dark .section {
   color: #ffffff;
   text-shadow: 0 2px 12px rgba(0,0,0,0.3);
 }
+
 .grad { background: linear-gradient(135deg, #22d3ee, #60a5fa); -webkit-background-clip:text; background-clip:text; color: transparent; }
 .sub { color:#e2e8f0; max-width: 52ch; }
 .chip {
@@ -210,7 +211,7 @@ input:focus, select:focus { border-color: #94a3b8; box-shadow: 0 0 0 4px rgba(14
 /* CTA */
 .cta { padding: var(--s-12) 0 var(--s-16); }
 .cta__inner {
-  color:#e2e8f0;
+  color:#0471ff;
   display:flex; align-items:center; justify-content:space-between; gap: var(--s-6);
   box-shadow: var(--shadow-2);
 }
@@ -219,10 +220,10 @@ input:focus, select:focus { border-color: #94a3b8; box-shadow: 0 0 0 4px rgba(14
 .footer {
   border-top:1px solid rgba(229,231,235,.12);
   padding: var(--s-8) 0 var(--s-12);
-  color:#cbd5e1;
+  color:#0072fd;
 }
 .footer__grid { display:flex; align-items:flex-start; justify-content:space-between; gap: var(--s-6); }
-.brand--footer .brand__name { color:#e5e7eb; }
+.brand--footer .brand__name { color:#ff0000; }
 
 /* Pills */
 .pill {

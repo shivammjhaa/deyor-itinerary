@@ -1,5 +1,9 @@
 import React, { useState } from "react";
 import "./style.css";
+import heroSpiti from './assets/images/hero_spiti.jpg';
+import ladakh from './assets/images/Ladakh.jpg';
+import spitiRoad from './assets/images/spiti_road.jpg';
+import travelGroup from './assets/images/travel_group.jpg';
 
 function App() {
   const [dark, setDark] = useState(false);
@@ -49,7 +53,8 @@ function App() {
           </div>
           <div className="hero__card">
             <div className="card media">
-              <img src="images/hero_spiti.jpg" alt="Spiti Valley roadtrip" />
+<img src={heroSpiti} alt="Spiti Valley roadtrip" />
+
               <div className="media__bar">
                 <div className="media__thumbs">
                   <span className="dot is-active"></span>
@@ -102,7 +107,7 @@ function App() {
         <div className="grid-3">
           <article className="card trip">
             <div className="trip__media">
-              <img src="images/Ladakh.jpg" alt="Ladakh" />
+<img src={ladakh} alt="Ladakh" />
               <span className="badge">Bestseller</span>
             </div>
             <div className="trip__body">
@@ -121,7 +126,7 @@ function App() {
 
           <article className="card trip">
             <div className="trip__media">
-              <img src="images/spiti_road.jpg" alt="Spiti Valley" />
+<img src={spitiRoad} alt="Spiti Valley" />
               <span className="badge badge--green">New</span>
             </div>
             <div className="trip__body">
@@ -140,7 +145,7 @@ function App() {
 
           <article className="card trip">
             <div className="trip__media">
-              <img src="images/travel_group.jpg" alt="Vietnam" />
+<img src={travelGroup} alt="Vietnam" />
               <span className="badge badge--purple">Limited</span>
             </div>
             <div className="trip__body">
@@ -242,4 +247,3 @@ function App() {
 }
 
 export default App;
-
